@@ -52,8 +52,6 @@ private val MyColorScheme = lightColorScheme(
 
 @Composable
 fun Kotlin9Theme(
-    darkTheme: Boolean = isSystemInDarkTheme(),
-    dynamicColor: Boolean = true,
     content: @Composable () -> Unit
 ) {
     val colorScheme = MyColorScheme
