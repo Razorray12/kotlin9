@@ -32,3 +32,12 @@ val Typography = Typography(
     )
     */
 )
+val myTypography = Typography(
+    bodyLarge = TextStyle(
+        fontFamily = FontFamily.SansSerif,
+        fontWeight = FontWeight.Bold,
+        fontSize = 15.sp,
+        lineHeight = 23.sp,
+        letterSpacing = 0.6.sp
+    )
+)
